@@ -1,0 +1,11 @@
+body{
+    background: greenyellow;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: tomato;
+}
