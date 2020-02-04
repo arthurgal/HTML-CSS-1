@@ -1,5 +1,10 @@
 body{
-    background: greenyellow;
+
+}
+
+.principal{
+    background: hotpink;
+    padding: 30px;
 }
 
 #banner{
@@ -20,5 +25,29 @@ p{
 }
 
 em strong{
-    color: tomato;
+    color: rgb(69, 12, 145);
+}
+
+.beneficios{
+    background: rgb(7, 71, 68);
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.imagembeneficio{
+    width: 50%;
 }
