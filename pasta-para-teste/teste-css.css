@@ -1,0 +1,41 @@
+body{
+    background: rgb(19, 2, 43);
+
+}
+.titulo-principal{
+    margin: 50px;
+    text-align: center;
+    color: rgb(155, 84, 247);
+    font-size: 50px;
+}
+.titulo-paragrafo{
+    margin: 50px;
+    background: #ad8de0ad;
+    color: #ffffff;
+}
+
+.paragrafo{
+    margin: 50px;
+    padding: 50px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.nome-person{
+    margin: 50px;
+    background-color: #ad8de0ad;
+    color: #ffffff;
+}
+
+.paragrafo-person{
+    color: #ffffff;
+    padding: 50px;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#harry{
+    margin-left: 50px;
+    display: inline-block;
+}
