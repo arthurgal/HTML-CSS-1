@@ -1,41 +1,79 @@
-body{
-    background: rgb(19, 2, 43);
-
+html{
+    background: url(bg3.jpg);
 }
-.titulo-principal{
-    margin: 50px;
+
+header{
+}
+
+
+#logo {
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+.caixa{
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 50px;
+}
+
+nav li{
+    display: inline;
+    padding: 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(83, 11, 51);
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+.textos{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.tipico{
+    background: pink;
+    margin-top: 50px;
     text-align: center;
-    color: rgb(155, 84, 247);
-    font-size: 50px;
-}
-.titulo-paragrafo{
-    margin: 50px;
-    background: #ad8de0ad;
-    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    
 }
 
-.paragrafo{
-    margin: 50px;
-    padding: 50px;
-    color: #ffffff;
+.descricao{
+    margin-top: 30px;
     text-align: justify;
 }
 
-.nome-person{
-    margin: 50px;
-    background-color: #ad8de0ad;
-    color: #ffffff;
+footer{
+    margin-top: 50px;
+    
+    text-align: center;
 }
 
-.paragrafo-person{
-    color: #ffffff;
-    padding: 50px;
-    text-align: justify;
-    display: inline-block;
-    vertical-align: top;
+footer p{
+    background: pink;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#harry{
-    margin-left: 50px;
-    display: inline-block;
+#logo-roda{
+    padding-top: 50px;
+    max-width:600px;
+    max-height:150px;
+    width: auto;
+    height: auto;
 }
