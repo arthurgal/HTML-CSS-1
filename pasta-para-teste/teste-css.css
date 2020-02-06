@@ -3,7 +3,7 @@ html{
 }
 
 header{
-    background: rgb(247, 220, 237);
+    background: url(bgrosa.jpg);
 }
 
 
@@ -14,7 +14,7 @@ header{
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 320px;
+    margin-left: 340px;
 }
 
 .caixa{
@@ -59,7 +59,7 @@ nav a:active{
 }
 
 .tipico{
-    background: rgb(247, 220, 237);
+    background: rgb(245, 209, 209);
     font-size: 32px;
     margin-top: 50px;
     text-align: center;
@@ -83,7 +83,7 @@ footer{
 }
 
 footer p{
-    background: rgb(247, 220, 237);
+    background: rgb(245, 209, 209);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -94,4 +94,31 @@ footer p{
     max-height:150px;
     width: auto;
     height: auto;
+}
+
+.meusprodutos{
+    width: 940px;
+	margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 200px;
+    
+}
+
+.meusprodutos li{
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+}
+
+.meusprodutos img{
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+.meusprodutos p{
+    font-weight: bold;
+    font-size: medium;    
+    padding: 20px;
 }
