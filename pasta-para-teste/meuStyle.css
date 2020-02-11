@@ -55,6 +55,31 @@ nav a:active{
     color: rgb(204, 14, 118);
 }
 
+.textos{
+    position: relative;
+    width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.tipico{
+    background: rgb(245, 209, 209);
+    font-size: 32px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.descricao{
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
 .meusprodutos{
     position: relative;
     width: 940px;
@@ -108,3 +133,25 @@ footer p{
     height: auto;
 }
 
+main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, p {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
