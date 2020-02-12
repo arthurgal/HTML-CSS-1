@@ -1,0 +1,39 @@
+header{
+    background-color: blue;
+}
+
+.caixa{
+    width: 980px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.caixa h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pesquisa{
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+    padding: 10px auto;
+}
+
+.enviar{
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+    padding: 10px auto;
+}
+
+.menu{
+    position: absolute;
+    top: 30px;
+    left: 30%;
+}
+
+.menu li{
+    display: inline;
+    padding: 0px 10px;
+}
